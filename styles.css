@@ -1,0 +1,186 @@
+body{
+    margin:0px;
+    text-align: center;
+    background-color: rgb(162, 198, 229);;
+}
+h2{
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border-width:20px;
+  border-style: dotted none none none;
+  border-color: rgb(43, 145, 158);
+  width: 10%;
+  margin: 50px auto 50px auto;
+}
+
+.owner-image{
+  height: 250px;
+  width: 250px;
+}
+
+
+.shop-name{
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin: 0px;
+    color: rgb(43, 145, 158);
+}
+
+.self-descr{
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  margin: 0px;
+  color: rgb(43, 145, 158)
+}
+
+.header{
+    /* position: fixed; */
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    background-color: rgb(235, 226, 111);
+    /* border-style: solid; */
+    /* border-color: black; */
+    color: rgb(212, 150, 34);
+    padding-left: 20px;
+}
+.top-div{
+    color: white;
+    background-color: rgb(162, 198, 229);
+    padding-top:130px;
+    margin-bottom: 30px;
+}
+.CompanyName{
+    display: inline-block;
+    width: 200px;
+}
+.btn {
+    background-color: rgb(235, 226, 111);
+    /* background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9); */
+    border-style: solid;
+    border-color: rgb(212, 150, 34);;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(212, 150, 34);
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    left: 950px;
+  }
+  
+  .btn:hover {
+      border-style: solid;
+    background: rgb(231, 230, 206);;
+    text-decoration: none;
+  }
+
+  .mid-div{
+    height: 450px;
+    background-color: rgb(162, 198, 229);;
+  }
+
+  .prod-para{
+  }
+
+  .serv-para{
+  }
+
+  .machine{
+    width: 150px;
+    height: 150px;
+  }
+
+  .delivery{
+    width: 150px;
+    height: 150px;
+  }
+
+  .d1{
+    margin-top: 100px;
+    width: 500px;
+    position: relative;
+    left:100px;
+  }
+
+  .d2{
+    margin-top: 100px;
+    width: 500px;
+    position: relative;
+    left: 750px;
+    bottom: 410px;
+  }
+  
+  .row1{
+    height: 400px;
+    width: 350px;
+    border-style: solid;
+    border-color: rgb(38, 93, 165);
+    margin-left: 30px;
+    display: inline-block;
+    
+  }
+
+  .row2{
+    height: 400px;
+    width: 350px;
+    border-style: solid;
+    border-color: rgb(38, 93, 165);
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  .product_img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: transform .5s;
+  }
+
+  .product_img:hover {
+    /* -webkit-filter: blur(5px); */
+    transform: scale(1.1);
+    /* border: 3px solid #570753; */
+  }
+
+/* .product_img:not(:hover){
+    -webkit-filter: blur(12px);
+  } */
+
+  .hidden-text {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+  }
+
+  .footer{
+    background-color: rgb(44, 126, 146);
+    height: 100px;
+    padding-top: 40px;
+  }
+
+  .socials{
+    padding-right: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
